@@ -1,6 +1,6 @@
 # Neural Networks and Deep Learning
 
-A beginner-friendly supply class for CIMT College. You do not need prior machine learning experience. We start with the math behind a single neuron and build intuition with NumPy and Jupyter before moving on to full networks in later modules.
+A beginner-friendly introduction to neural networks. No prior machine learning experience is required. We start with the math behind a single neuron and build intuition with NumPy and Jupyter before moving on to full networks in later modules.
 
 ---
 
@@ -182,7 +182,7 @@ Try these yourself before peeking at the solutions cell:
 
 ## What comes next
 
-Future modules in this course will cover:
+Future modules will cover:
 
 - **Loss functions** — how wrong the prediction is
 - **Backpropagation** — how the network learns from mistakes
@@ -192,10 +192,10 @@ Module 1 is the foundation. Once one neuron makes sense, stacking thousands of t
 
 ---
 
-## Tips for students
+## Tips for learning
 
 - Run every code cell yourself; do not only read the markdown.
 - When a plot appears, pause and ask: *“What would happen if z were very negative? Very positive?”*
 - If something feels abstract, change one weight or bias in the notebook and re-run — you should see the output move in a sensible direction.
 
-Questions during class: bring your notebook, the cell that confused you, and what you expected vs what you got. That is the fastest way to debug understanding.
+When you get stuck: note the cell that confused you, what you expected, and what you got. Re-run from there — that is the fastest way to debug your understanding.
