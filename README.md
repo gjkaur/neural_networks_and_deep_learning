@@ -2,13 +2,22 @@
 
 A beginner-friendly introduction to neural networks. No prior machine learning experience is required. We start with the math behind a single neuron and build intuition with NumPy and Jupyter before moving on to full networks in later modules.
 
+**Contents**
+
+1. [What is in this repo](#what-is-in-this-repo)
+2. [Getting started](#getting-started)
+3. [Module 1 — all topics explained](#module-1--what-you-will-learn-in-plain-english) (Parts 1–7)
+4. [Quick reference](#quick-reference-after-module-1)
+5. [What comes next](#what-comes-next)
+6. [Tips for learning](#tips-for-learning)
+
 ---
 
 ## What is in this repo
 
 | File | What it is |
 |------|------------|
-| `Module_01_Mathematical_Foundations_of_Neural_Networks.ipynb` | Module 1 lab — read, run, and experiment |
+| `Module_01_Mathematical_Foundations_of_Neural_Networks.ipynb` | Module 1 lab — read, run, and experiment (includes saved outputs and plots) |
 | `requirements.txt` | Python packages you need |
 
 ---
@@ -86,7 +95,7 @@ Without bias, if all inputs are zero, the weighted sum is always zero — no mat
 
 Example: predicting pass/fail from study hours. The weight on hours says “more hours → higher score.” The bias says “even at zero hours, the baseline isn’t forced to be exactly zero” (or the opposite, depending on what the model learned).
 
-Some courses teach bias as “a fake input that is always 1 with its own weight.” Same idea, different notation. The notebook uses explicit `b` because it is clearer when you are starting out.
+Another common trick is to treat bias as a weight on a constant input of 1. Same idea, different notation. This notebook uses explicit `b` because it is clearer when you are starting out.
 
 ---
 
